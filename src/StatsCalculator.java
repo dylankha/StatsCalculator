@@ -26,23 +26,22 @@ public class StatsCalculator {
     }
 
     public double calculateMax(){
-        double max = 0;
-        for (int i = 1; i < sortedValues.length; i++){
-            if (sortedValues[i] > sortedValues[i-1]){
-                max = sortedValues[i];
-            }
-        }
+        double max = sortedValues[sortedValues.length - 1];
         return max;
     }
 
     public double calculateMin(){
-        double min = 0;
-        for (int i = 1; i < sortedValues.length; i++){
-            if (sortedValues[i] < sortedValues[i-1]){
-                min = sortedValues[i];
-            }
-        }
+        double min = sortedValues[0];
         return min;
+    }
+
+    public void calculateMedian(){
+        if(sortedValues.length % 2 == 0){
+
+        }
+        else{
+
+        }
     }
 
 
