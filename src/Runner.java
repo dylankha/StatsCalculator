@@ -4,6 +4,7 @@ public class Runner {
         StatsCalculator myCalculator = new StatsCalculator(values);
         myCalculator.sortData();
         System.out.println(myCalculator.calculateMax());
+        System.out.println(myCalculator.calculateFirstQuartile());
 
     }
 }

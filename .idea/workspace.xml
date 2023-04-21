@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1b614711-e2d3-4b0a-a4b3-e33929564d69" name="Changes" comment="beuh">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StatsCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StatsCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +30,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.general"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,6 +53,12 @@
       <workItem from="1678808262175" duration="44000" />
       <workItem from="1678810516845" duration="604000" />
       <workItem from="1678894200607" duration="6032000" />
+      <workItem from="1679068294695" duration="1410000" />
+      <workItem from="1679327242363" duration="1199000" />
+      <workItem from="1680718437454" duration="130000" />
+      <workItem from="1681314193084" duration="2047000" />
+      <workItem from="1681919418550" duration="640000" />
+      <workItem from="1682087649531" duration="1063000" />
     </task>
     <task id="LOCAL-00001" summary="beuh">
       <created>1678381441587</created>
@@ -80,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678899132518</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="beuh">
+      <created>1679068366036</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679068366036</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

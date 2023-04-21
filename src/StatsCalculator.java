@@ -35,15 +35,27 @@ public class StatsCalculator {
         return min;
     }
 
-    public void calculateMedian(){
-        if(sortedValues.length % 2 == 0){
-
+    public double calculateMedian(double[] array){
+        double median = 0;
+        if(array.length % 2 == 0){
+            median = (array[array.length/2] + array[(array.length/2)-1]) / 2;
+            return median;
         }
         else{
-
+            median = (sortedValues[sortedValues.length-1]/2);
         }
+        return median;
     }
 
+    public double calculateFirstQuartile(){
+        double [] firstHalf = new double [sortedValues.length];
+        return calculateMedian(firstHalf);
+    }
+
+    public double calculateThirdQuartile(){
+        double [] secondHalf = new double[sortedValues.length]; //fix this
+        return calculateMedian(secondHalf);
+    }
 
 
 
